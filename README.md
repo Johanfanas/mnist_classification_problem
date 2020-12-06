@@ -4,12 +4,12 @@ Neural networks is used to solve the classification problem using the mnist data
 
 The training and testing data are imported and the labels are one hot encoded. The training data possesses 60,000 images, but it is separated into validation and training data. The first image is plotted to verify everything is correct (see below).
 
-![](../images/image.png)
+![alt text](images/image.png)
 
 A generator is used to feed the data in small groups. The model used is built using Keras built in functions and the model is trained.
 
-![](../images/train.png)
+![alt text](images/train.png)
 
 After the model is trained, it is used to predict the handwritten digit with images from the testing data and verified they are correct. The accuracy of the model is evaluated using the testing data. We achieved a testing accuracy of approximately 75%.
 
-![](../images/det.png)
+![alt text](images/det.png)
